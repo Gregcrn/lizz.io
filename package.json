@@ -1,0 +1,16 @@
+{
+  "name": "lizz-io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter=website dev",
+    "dev:website": "pnpm --filter=website dev",
+    "build": "pnpm --filter=website build",
+    "build:all": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
